@@ -9,7 +9,7 @@ btnGenera.addEventListener("click",
         var biglietto = document.getElementById("biglietto");
         biglietto.style.display = "block";
     }
-)
+);
 
 btnAnnulla = document.getElementById("anullaPrezzo");
 btnAnnulla.addEventListener("click",
@@ -17,8 +17,8 @@ btnAnnulla.addEventListener("click",
         var biglietto = document.getElementById("biglietto");
         biglietto.style.display = "none";
 
-        
+        document.getElementById("nome").value = " ";
         document.getElementById("km").value = " ";
         document.getElementById("fascia-eta").value = " ";
     }
-)
+);
