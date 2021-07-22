@@ -22,12 +22,12 @@
                 </div>
                 <!-- km da percorrere -->
                 <div class="row">
-                    <label for="km" class="nomeLabel" >Km da percorrere: </label>
+                    <label for="km" id="km" class="nomeLabel" >Km da percorrere: </label>
                     <input type="text" name="name" placeholder="Inserisci i km">
                 </div>
                 <!-- fascia età -->
                 <div class="row">
-                    <label for="fascia-eta" class="nomeLabel">Fascia età</label>
+                    <label for="fascia-eta" id="fascia-eta" class="nomeLabel">Fascia età</label>
                     <select name="fascia-eta" id="fascia-eta">
                         <option value="minorenne">Minorenne</option>
                         <option value="magiorenne">Maggiorenne</option>
@@ -47,7 +47,38 @@
 
         <div class="divBiglietto" id="biglietto">
             <h1>IL TUO BIGLIETTO</h1>
-            <div class=" container"> </div>
+            <div class=" container ">
+                <h3>DETTAGLI PASSEGGERI</h3>
+                <div class="dettagliBiglietto">
+                    <div class="nomePasseggero">
+                        <h3>NOME PASSEGGERO</h3>
+                        <span id="nomePassBigl"></span>
+                    </div>
+
+                    <div class=" sezioneBiglietto">
+                        <h3> Offerta</h3>
+                        <span id="name"></span>
+                    </div>
+
+                    <div class=" sezioneBiglietto">
+                        <h3> Carrozza</h3>
+                        <span id="name"></span>
+                    </div>
+
+                    <div class=" sezioneBiglietto">
+                        <h3> Codice CP</h3>
+                        <span id="name"></span>
+                    </div>
+
+                    <div class=" sezioneBiglietto">
+                        <h3> Costo biglietto</h3>
+                        <span id="name"></span>
+                    </div>
+
+                    
+                </div>
+
+            </div>
                 
         </div>
     </div>
